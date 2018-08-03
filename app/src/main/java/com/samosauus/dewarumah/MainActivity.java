@@ -1,5 +1,6 @@
 package com.samosauus.dewarumah;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -12,6 +13,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.samosauus.dewarumah.AfterLogin.ALBonus;
+import com.samosauus.dewarumah.AfterLogin.ALInputProspek;
+import com.samosauus.dewarumah.AfterLogin.ALProfil;
+import com.samosauus.dewarumah.AfterLogin.ALProspek;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -81,16 +87,24 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_camera) {
-            // Handle the camera action
+
+            Intent i = new Intent(getApplicationContext(), ALBonus.class);
+            startActivity(i);
+
         } else if (id == R.id.nav_gallery) {
+
+            Intent i = new Intent(getApplicationContext(), ALInputProspek.class);
+            startActivity(i);
 
         } else if (id == R.id.nav_slideshow) {
 
+            Intent i = new Intent(getApplicationContext(), ALProfil.class);
+            startActivity(i);
+
         } else if (id == R.id.nav_manage) {
 
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
+            Intent i = new Intent(getApplicationContext(), ALProspek.class);
+            startActivity(i);
 
         }
 

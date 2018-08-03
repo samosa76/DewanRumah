@@ -19,6 +19,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".AfterLogin.ALProfil" />
+        <activity android:name=".AfterLogin.ALBonus" />
+        <activity android:name=".AfterLogin.ALInputProspek" />
+        <activity android:name=".AfterLogin.ALProspek"></activity>
     </application>
 
 </manifest>
