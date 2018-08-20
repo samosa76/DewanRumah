@@ -1,4 +1,4 @@
-package com.samosauus.dewarumah.AfterLogin;
+package com.samosauus.dewarumah.AfterLogin.Activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

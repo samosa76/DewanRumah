@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.samosauus.dewarumah.AfterLogin.ALInputProspek">
+    tools:context="com.samosauus.dewarumah.AfterLogin.Activity.ALInputProspek">
 
 </android.support.constraint.ConstraintLayout>
